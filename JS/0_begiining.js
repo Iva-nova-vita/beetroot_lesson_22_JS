@@ -1,16 +1,17 @@
-let name = prompt("enter your name");
-alert(`hello, ${name}`);
+let name = prompt("Ваше имя?");
+alert(`Привет, ${name}`);
 
-let year = prompt("enter yuor year of birth");
+let year = prompt("год вашего рождения?");
 let num = Number(year);
 const year19 = 2019;
 let age = year19 - year;
 alert("вам всего " + age + "!");
 
-let a = prompt("длина стороны квадрата");
+let a = prompt("длина стороны квадрата?");
 alert("периметр равен " + a * 4);
 let r = prompt("радиус");
-alert(2 * Math.PI * r);
+let l=2 * Math.PI * r;
+alert(l.toFixed(2) + "см длина окружности радиусом " + r + " см");
 
 let s = prompt("Какое расстояние между городами?");
 let t = prompt("За сколько часов вы хотите добраться?");
